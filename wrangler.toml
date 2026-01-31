@@ -1,12 +1,8 @@
 name = "deyxpress1"
-main = "index.js" # O la ruta a tu archivo principal, ej: "src/index.ts"
-compatibility_date = "2026-01-31"
-
-name = "deyxpress1"
 main = "index.js"
 compatibility_date = "2026-01-31"
 
-[rules]
-identifiers = [ "HTML" ]
+[[rules]]
 type = "Text"
-globs = [ "**/*.html" ]
+globs = ["**/*.html"]
+fallthrough = true
